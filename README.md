@@ -73,7 +73,7 @@ SQL queries, a chart suite, EDA notebook and a Streamlit dashboard.
 
 [medbot-rag](https://github.com/Rohit-0612/medbot-rag) — Flask + Qdrant hybrid retrieval over pharmacology case reports ·
 [multi-agent-codegen](https://github.com/Rohit-0612/multi-agent-codegen) — prompt to running full-stack app, with a self-repair loop on local Ollama ·
-[forecasting-project](https://github.com/Rohit-0612/forecasting-project) — ARIMA/Prophet/XGBoost/LSTM per state, best model selected on a strict out-of-sample window
+[state-sales-forecasting](https://github.com/Rohit-0612/state-sales-forecasting) — ARIMA/Prophet/XGBoost/LSTM per state, best model selected on a strict out-of-sample window
 
 ---
 
