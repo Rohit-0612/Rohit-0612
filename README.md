@@ -41,23 +41,6 @@
 
 ## Featured projects
 
-<div align="center">
-
-<a href="https://github.com/Rohit-0612/aria">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rohit-0612&repo=aria&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="49%"/>
-</a>
-<a href="https://github.com/Rohit-0612/birdid">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rohit-0612&repo=birdid&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="49%"/>
-</a>
-<a href="https://github.com/Rohit-0612/HHGoa26-Voice-Rag">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rohit-0612&repo=HHGoa26-Voice-Rag&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="49%"/>
-</a>
-<a href="https://github.com/Rohit-0612/finstock-research-assistant">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rohit-0612&repo=finstock-research-assistant&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="49%"/>
-</a>
-
-</div>
-
 | Project | What makes it interesting |
 |---|---|
 | **[ARIA](https://github.com/Rohit-0612/aria)** · [live](https://mohitrks-aria.hf.space) | A Judge agent scores groundedness before any answer reaches the user. Page-level citations, graded evidence tier. |
@@ -73,16 +56,17 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Rohit-0612&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&icon_color=7aa2f7&include_all_commits=true" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rohit-0612&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&langs_count=8" width="40%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Rohit-0612&theme=tokyonight" width="92%"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=Rohit-0612&theme=tokyonight&hide_border=true&background=1a1b27&ring=7aa2f7&fire=7aa2f7&currStreakLabel=7aa2f7" width="60%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Rohit-0612&theme=tokyonight" width="45%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Rohit-0612&theme=tokyonight" width="45%"/>
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Rohit-0612&theme=tokyonight&no-frame=true&no-bg=true&column=6&margin-w=8" width="90%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Rohit-0612&theme=tokyonight" width="45%"/>
+<img src="https://streak-stats.demolab.com?user=Rohit-0612&theme=tokyonight&hide_border=true&background=1a1b27&ring=7aa2f7&fire=7aa2f7&currStreakLabel=7aa2f7" width="45%"/>
 
 <br/><br/>
 
