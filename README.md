@@ -1,94 +1,95 @@
-# Rohit Kumar
+<div align="center">
 
-**AI Engineer — retrieval, multi-agent systems, and the evaluation that keeps them honest.**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:7aa2f7&height=180&section=header&text=Rohit%20Kumar&fontSize=52&fontColor=ffffff&fontAlignY=32&desc=AI%20Engineer&descAlignY=52&descSize=18&animation=fadeIn" width="100%"/>
 
-I build LLM systems that are held to a measurable standard: every answer cited, every
-claim checked by something other than the model that made it, and the numbers published
-in the README even when they are unflattering. Most of what I ship runs end to end —
-retrieval, orchestration, API, and interface — rather than stopping at a notebook.
+<a href="https://www.linkedin.com/in/rohit-kumar-857b38360/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<img src="https://komarev.com/ghpvc/?username=Rohit-0612&style=for-the-badge&color=7aa2f7&label=PROFILE+VIEWS" alt="views"/>
 
-Final-year B.E. Computer Science student at **Atria Institute of Technology**, Bangalore
-(7th semester, graduating 2027) · Open to AI engineering roles and internships.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=900&color=7AA2F7&center=true&vCenter=true&width=620&lines=Retrieval-augmented+systems+that+cite+their+sources;Multi-agent+orchestration+with+LangGraph;Evaluation+that+keeps+the+model+honest" alt="typing"/>
 
----
+</div>
 
-## Selected work
+<br/>
 
-### [ARIA](https://github.com/Rohit-0612/aria) — evidence-grounded clinical pharmacotherapy
-[**Live demo**](https://mohitrks-aria.hf.space) · LangGraph · Qdrant · Cohere rerank · FastAPI/SSE · React
+## Tech
 
-A multi-agent assistant that answers pharmacotherapy questions strictly from two reference
-texts, with page-level citations behind every claim. A separate **Judge agent** scores
-groundedness and relevance before an answer is allowed to reach the user, and each response
-carries a graded evidence tier and a visible confidence gauge. The interesting problem here
-was refusal: making the system decline rather than improvise when the retrieved passages
-do not support an answer.
+<div align="center">
 
-### [BirdID](https://github.com/Rohit-0612/birdid) — local-first species identification
-PyTorch · EfficientNetV2-S · BioCLIP · BirdNET · Grad-CAM
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
-Identifies a bird from a photo or a call, entirely offline. A 200-way classifier cannot say
-"none of the above" — it renormalises over the classes it has — so a photo of a frog came
-back as a confident nightjar. I added an **open-set gate** over the raw logits, then a second
-identifier (BioCLIP) that scores images against species *names* rather than a fixed class
-list, extending reach from 200 species to 6,423. Measured on 130 photos of 26 species outside
-the trained set: **79% top-1**, **91.5% precision** among committed answers. When neither
-model is confident, it files nothing and says why.
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
-### [Multilingual Voice RAG](https://github.com/Rohit-0612/HHGoa26-Voice-Rag) — 14 Indic languages
-Sarvam STT · Qdrant hybrid (dense + BM25, server-side RRF) · guardrails
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
-Voice in, grounded answer out, across all 14 Indic languages in `ai4bharat/MSMARCO-XI` —
-27,958 passages, 29,582 indexed points. Two guardrails, a provider fallback chain, and
-latency instrumented at every stage. **recall@5 0.58** against MSMARCO gold labels,
-**P50 6.0s** end to end, 65 tests, and 35 design decisions written up with the alternatives
-I rejected and why.
+</div>
 
-### [FinStock Research Assistant](https://github.com/Rohit-0612/finstock-research-assistant) — multi-agent market research
-LangGraph (supervisor + parallel fanout) · RAG · FastAPI/SSE · React
+<br/>
 
-Five-node graph covering NSE/BSE and US markets: a guardrail and query analyser routes to
-parallel market-data, news, and knowledge-RAG agents, then a synthesis node with an output
-guardrail. It cites a source for every data point and **refuses to produce predictive or
-advisory output** — the constraint that shaped the whole design.
+## Featured projects
 
-### [CI Failure Triage Agent](https://github.com/Rohit-0612/CI-Failure-Triage-Agent) — agentic developer tooling
-Python 3.11 · uv · ruff · pytest
+<div align="center">
 
-Investigates failed GitHub Actions runs: collects logs, diffs and history, forms and verifies
-a root-cause hypothesis, and proposes a fix a human must approve. Built on a mined dataset of
-**real** CI failures from public repositories — 50-case dev split and a held-out 25-case test
-split — each paired with the commit that made CI green again, with a deterministic rule
-baseline to beat. Built in phases, with the README stating plainly what is not implemented yet.
+<a href="https://github.com/Rohit-0612/aria">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rohit-0612&repo=aria&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="49%"/>
+</a>
+<a href="https://github.com/Rohit-0612/birdid">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rohit-0612&repo=birdid&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="49%"/>
+</a>
+<a href="https://github.com/Rohit-0612/HHGoa26-Voice-Rag">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rohit-0612&repo=HHGoa26-Voice-Rag&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="49%"/>
+</a>
+<a href="https://github.com/Rohit-0612/finstock-research-assistant">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rohit-0612&repo=finstock-research-assistant&theme=tokyonight&hide_border=true&bg_color=1a1b27" width="49%"/>
+</a>
 
-### [Olist E-Commerce Analysis](https://github.com/Rohit-0612/olist-ecommerce-analysis) — 100k orders, 2016–2018
-PostgreSQL · SQL · pandas · Streamlit
+</div>
 
-End-to-end analysis of the Brazilian e-commerce dataset: relational modelling, six analytical
-SQL queries, a chart suite, EDA notebook and a Streamlit dashboard.
+| Project | What makes it interesting |
+|---|---|
+| **[ARIA](https://github.com/Rohit-0612/aria)** · [live](https://mohitrks-aria.hf.space) | A Judge agent scores groundedness before any answer reaches the user. Page-level citations, graded evidence tier. |
+| **[BirdID](https://github.com/Rohit-0612/birdid)** | An open-set gate so a 200-class model can say *"not one of mine"* — then BioCLIP names 6,423 more. 79% top-1, 91.5% precision. |
+| **[Voice RAG](https://github.com/Rohit-0612/HHGoa26-Voice-Rag)** | All 14 Indic languages, hybrid dense+BM25 with server-side RRF. recall@5 0.58, P50 6.0s, 65 tests. |
+| **[FinStock](https://github.com/Rohit-0612/finstock-research-assistant)** | Parallel-fanout LangGraph. Cites every data point and refuses to give advice — the constraint that shaped the design. |
+| **[CI Triage Agent](https://github.com/Rohit-0612/CI-Failure-Triage-Agent)** | Mined 75 *real* CI failures paired with the fix commit, plus a rule baseline to beat. |
+| **[Olist Analysis](https://github.com/Rohit-0612/olist-ecommerce-analysis)** | 100k orders, PostgreSQL modelling, six analytical queries, Streamlit dashboard. |
 
----
+<br/>
 
-## Also here
+## Stats
 
-[medbot-rag](https://github.com/Rohit-0612/medbot-rag) — Flask + Qdrant hybrid retrieval over pharmacology case reports ·
-[multi-agent-codegen](https://github.com/Rohit-0612/multi-agent-codegen) — prompt to running full-stack app, with a self-repair loop on local Ollama ·
-[state-sales-forecasting](https://github.com/Rohit-0612/state-sales-forecasting) — ARIMA/Prophet/XGBoost/LSTM per state, best model selected on a strict out-of-sample window
+<div align="center">
 
----
+<img src="https://github-readme-stats.vercel.app/api?username=Rohit-0612&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&icon_color=7aa2f7&include_all_commits=true" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rohit-0612&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=7aa2f7&langs_count=8" width="40%"/>
 
-## Tools
+<br/><br/>
 
-**LLM systems** LangGraph · RAG (dense, BM25, hybrid RRF) · Qdrant · Cohere rerank · open-set and refusal handling · LLM-as-judge evaluation
-**ML** PyTorch · scikit-learn · XGBoost · Prophet · transfer learning · Grad-CAM
-**Backend** Python · FastAPI · Flask · SSE streaming · PostgreSQL · pytest · uv · ruff
-**Frontend** TypeScript · React · Next.js · Tailwind
+<img src="https://streak-stats.demolab.com?user=Rohit-0612&theme=tokyonight&hide_border=true&background=1a1b27&ring=7aa2f7&fire=7aa2f7&currStreakLabel=7aa2f7" width="60%"/>
 
----
+<br/><br/>
 
-## Contact
+<img src="https://github-profile-trophy.vercel.app/?username=Rohit-0612&theme=tokyonight&no-frame=true&no-bg=true&column=6&margin-w=8" width="90%"/>
 
-**[LinkedIn](https://www.linkedin.com/in/rohit-kumar-857b38360/)** — the fastest way to reach me.
+<br/><br/>
 
-If a project here is relevant to something you are hiring for, open an issue on that repo
-or message me on LinkedIn and I will walk you through the design decisions behind it.
+<img src="https://raw.githubusercontent.com/Rohit-0612/Rohit-0612/output/github-snake-dark.svg" width="95%" alt="contribution snake"/>
+
+</div>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,100:1a1b27&height=100&section=footer" width="100%"/>
+</div>
