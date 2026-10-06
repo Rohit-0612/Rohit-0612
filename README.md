@@ -11,6 +11,13 @@
 
 <a href="https://www.linkedin.com/in/rohit-kumar-857b38360/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pill-linkedin-dark.svg"><img alt="LinkedIn" src="assets/pill-linkedin-light.svg" height="38"></picture></a>&nbsp;<a href="https://huggingface.co/Mohitrks"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pill-huggingface-dark.svg"><img alt="Hugging Face" src="assets/pill-huggingface-light.svg" height="38"></picture></a>&nbsp;<a href="https://mohitrks-aria.hf.space"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pill-aria-live-dark.svg"><img alt="ARIA live demo" src="assets/pill-aria-live-light.svg" height="38"></picture></a>&nbsp;<a href="https://birdid-umber.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pill-birdid-live-dark.svg"><img alt="BirdID live demo" src="assets/pill-birdid-live-light.svg" height="38"></picture></a>
 
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ticker-dark.svg">
+  <img alt="Highlights: 6,423 bird species named · 14 Indic languages in one voice RAG · recall@5 0.58 · 75 real CI failures mined · 79% top-1 on unseen birds · 65 tests passing" src="assets/ticker-light.svg" width="100%">
+</picture>
+
 </div>
 
 <br/>
